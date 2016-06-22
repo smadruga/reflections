@@ -2,6 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
     Quando inicio um repositório uma pasta .git, oculta, é criada neste mesmo diretório. Isto é necessário para iniciar o controle de versionamento dos meus arquivos gravados nesta pasta e poder usufruir dos benefícios que o git oferece.
 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
@@ -10,6 +11,8 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	Nesta área posso separar todos os arquivos relativos a essa mudança lógica para, então, realizar o commit
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?

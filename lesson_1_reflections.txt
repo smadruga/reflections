@@ -1,0 +1,41 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	É útil pois na comparação entre os dois arquivos ele destaca as linhas alteradas, onde é possível verificar qual das linhas saiu e qual entrou, deixando a alteração mais clara, principalmente se a linha for curta.
+
+	É interessante também que mesmo num erro de digitação, se comparado com um arquivo anterior com o texto correto, essa diferença será destacada e assim possível de ser corrigida.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	É interessante ter o acesso de todo o histórico de mudanças pois isso permitirá voltar no ponto exato de uma mudança específica que pode ter influcenciado no aparecimento de um bug, ou caso haja um arrependimento na forma com que algum recurso foi conduzido e seja desejável mudar este ponto do projeto.
+	
+	Ter acesso ao histórico de mudanças é uma maneira poderosa de buscar falhas e identificar pontos passíveis de correção ou alteração
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    PROS: melhor controle sobre o tamanho entre os commits, ao invés de qualquer alteração, independente do tamanho, ser armazenada; possibilidade de fazer os commits de acordo com mudanças lógicas sobre o código;
+    
+    CONS: tem que ser feito manualmente e isso pode ser relevante caso seja esquecido de dar o commit por muito tempo; pra que o commit seja faça sentido é preciso comentar qual foi a mudança lógica realizada;
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Por que o Google Docs trata os arquivos separadamente, sem considerá-los como códigos ou como arquivos que funcionam se utilizados de maneira conjunta. O git foi desenvolvido pensado para a programação, onde diferentes arquivos possuem dependência um do outro de maneira geral.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Com o git log consigo visualizar todos os commits realizados, de forma resumida, identificado o que cada um representa e obter seu ID para ser utilizado no git diff, que identifica as alterações (inserção e remoção de dados)
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Com o controle de versões, baseado em mudanças lógicas, é possível retroceder a cada commit e verificar em qual deles ocorreu o bug em questão, que está atrapalhando o projeto. Isso garante ir no ponto exato e corrigir a partir dali, no trecho problemático.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Versionar meu primeiro projeto

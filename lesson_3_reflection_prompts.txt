@@ -1,0 +1,3 @@
+Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
+
+	Quando não estou em minha máquina e necessito fazer alguma alteração importante e urgente.
